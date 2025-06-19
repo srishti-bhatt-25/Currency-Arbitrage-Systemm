@@ -1,0 +1,566 @@
+{
+  "currencies": [
+    "USD",
+    "EUR",
+    "JPY",
+    "GBP",
+    "CHF",
+    "INR"
+  ],
+  "rates": [
+    {
+      "from": "CHF",
+      "to": "EUR",
+      "rate": 1.06
+    },
+    {
+      "from": "CHF",
+      "to": "GBP",
+      "rate": 0.9
+    },
+    {
+      "from": "CHF",
+      "to": "INR",
+      "rate": 95.0
+    },
+    {
+      "from": "CHF",
+      "to": "JPY",
+      "rate": 171.2
+    },
+    {
+      "from": "CHF",
+      "to": "USD",
+      "rate": 1.15
+    },
+    {
+      "from": "EUR",
+      "to": "CHF",
+      "rate": 0.95
+    },
+    {
+      "from": "EUR",
+      "to": "GBP",
+      "rate": 0.86
+    },
+    {
+      "from": "EUR",
+      "to": "INR",
+      "rate": 89.0
+    },
+    {
+      "from": "EUR",
+      "to": "JPY",
+      "rate": 162.5
+    },
+    {
+      "from": "EUR",
+      "to": "USD",
+      "rate": 1.1
+    },
+    {
+      "from": "GBP",
+      "to": "CHF",
+      "rate": 1.13
+    },
+    {
+      "from": "GBP",
+      "to": "EUR",
+      "rate": 1.18
+    },
+    {
+      "from": "GBP",
+      "to": "INR",
+      "rate": 107.0
+    },
+    {
+      "from": "GBP",
+      "to": "JPY",
+      "rate": 193.0
+    },
+    {
+      "from": "GBP",
+      "to": "USD",
+      "rate": 1.275
+    },
+    {
+      "from": "INR",
+      "to": "CHF",
+      "rate": 0.0107
+    },
+    {
+      "from": "INR",
+      "to": "EUR",
+      "rate": 0.0115
+    },
+    {
+      "from": "INR",
+      "to": "GBP",
+      "rate": 0.0095
+    },
+    {
+      "from": "INR",
+      "to": "JPY",
+      "rate": 1.82
+    },
+    {
+      "from": "INR",
+      "to": "USD",
+      "rate": 0.0121
+    },
+    {
+      "from": "JPY",
+      "to": "CHF",
+      "rate": 0.0058
+    },
+    {
+      "from": "JPY",
+      "to": "EUR",
+      "rate": 0.0063
+    },
+    {
+      "from": "JPY",
+      "to": "GBP",
+      "rate": 0.0053
+    },
+    {
+      "from": "JPY",
+      "to": "INR",
+      "rate": 0.56
+    },
+    {
+      "from": "JPY",
+      "to": "USD",
+      "rate": 0.0068
+    },
+    {
+      "from": "USD",
+      "to": "CHF",
+      "rate": 0.89
+    },
+    {
+      "from": "USD",
+      "to": "EUR",
+      "rate": 0.94
+    },
+    {
+      "from": "USD",
+      "to": "GBP",
+      "rate": 0.8
+    },
+    {
+      "from": "USD",
+      "to": "INR",
+      "rate": 84.0
+    },
+    {
+      "from": "USD",
+      "to": "JPY",
+      "rate": 151.0
+    }
+  ],
+  "opportunities": [
+    {
+      "from": "USD",
+      "to": "EUR",
+      "path": [
+        "USD",
+        "GBP",
+        "INR",
+        "EUR"
+      ],
+      "effectiveRate": 0.9844,
+      "estimatedProfit": 0.0444
+    },
+    {
+      "from": "USD",
+      "to": "GBP",
+      "path": [
+        "USD",
+        "INR",
+        "EUR",
+        "GBP"
+      ],
+      "effectiveRate": 0.83076,
+      "estimatedProfit": 0.03076
+    },
+    {
+      "from": "USD",
+      "to": "JPY",
+      "path": [
+        "USD",
+        "INR",
+        "EUR",
+        "JPY"
+      ],
+      "effectiveRate": 2.0456,
+      "estimatedProfit": 0.0456
+    },
+    {
+      "from": "USD",
+      "to": "CHF",
+      "path": [
+        "USD",
+        "INR",
+        "EUR",
+        "CHF"
+      ],
+      "effectiveRate": 0.9177,
+      "estimatedProfit": 0.0277
+    },
+    {
+      "from": "USD",
+      "to": "INR",
+      "path": [
+        "USD",
+        "EUR",
+        "GBP",
+        "INR"
+      ],
+      "effectiveRate": 86.4988,
+      "estimatedProfit": 2.4988
+    },
+    {
+      "from": "EUR",
+      "to": "USD",
+      "path": [
+        "EUR",
+        "GBP",
+        "JPY",
+        "USD"
+      ],
+      "effectiveRate": 1.128664,
+      "estimatedProfit": 0.028664
+    },
+    {
+      "from": "EUR",
+      "to": "GBP",
+      "path": [
+        "EUR",
+        "JPY",
+        "USD",
+        "GBP"
+      ],
+      "effectiveRate": 0.884,
+      "estimatedProfit": 0.024
+    },
+    {
+      "from": "EUR",
+      "to": "JPY",
+      "path": [
+        "EUR",
+        "USD",
+        "GBP",
+        "JPY"
+      ],
+      "effectiveRate": 169.84,
+      "estimatedProfit": 7.34
+    },
+    {
+      "from": "EUR",
+      "to": "CHF",
+      "path": [
+        "EUR",
+        "USD",
+        "GBP",
+        "CHF"
+      ],
+      "effectiveRate": 0.9944,
+      "estimatedProfit": 0.0444
+    },
+    {
+      "from": "EUR",
+      "to": "INR",
+      "path": [
+        "EUR",
+        "USD",
+        "GBP",
+        "INR"
+      ],
+      "effectiveRate": 94.16,
+      "estimatedProfit": 5.16
+    },
+    {
+      "from": "GBP",
+      "to": "USD",
+      "path": [
+        "GBP",
+        "INR",
+        "EUR",
+        "USD"
+      ],
+      "effectiveRate": 1.35355,
+      "estimatedProfit": 0.07855
+    },
+    {
+      "from": "GBP",
+      "to": "EUR",
+      "path": [
+        "GBP",
+        "JPY",
+        "INR",
+        "EUR"
+      ],
+      "effectiveRate": 1.24292,
+      "estimatedProfit": 0.06292
+    },
+    {
+      "from": "GBP",
+      "to": "JPY",
+      "path": [
+        "GBP",
+        "INR",
+        "EUR",
+        "JPY"
+      ],
+      "effectiveRate": 199.95625,
+      "estimatedProfit": 6.95625
+    },
+    {
+      "from": "GBP",
+      "to": "CHF",
+      "path": [
+        "GBP",
+        "INR",
+        "EUR",
+        "CHF"
+      ],
+      "effectiveRate": 1.168975,
+      "estimatedProfit": 0.038975
+    },
+    {
+      "from": "GBP",
+      "to": "INR",
+      "path": [
+        "GBP",
+        "JPY",
+        "USD",
+        "INR"
+      ],
+      "effectiveRate": 110.2416,
+      "estimatedProfit": 3.2416
+    },
+    {
+      "from": "JPY",
+      "to": "USD",
+      "path": [
+        "JPY",
+        "INR",
+        "EUR",
+        "USD"
+      ],
+      "effectiveRate": 0.007084,
+      "estimatedProfit": 0.000284
+    },
+    {
+      "from": "JPY",
+      "to": "EUR",
+      "path": [
+        "JPY",
+        "USD",
+        "INR",
+        "EUR"
+      ],
+      "effectiveRate": 0.006569,
+      "estimatedProfit": 0.000269
+    },
+    {
+      "from": "JPY",
+      "to": "GBP",
+      "path": [
+        "JPY",
+        "EUR",
+        "USD",
+        "GBP"
+      ],
+      "effectiveRate": 0.005544,
+      "estimatedProfit": 0.000244
+    },
+    {
+      "from": "JPY",
+      "to": "CHF",
+      "path": [
+        "JPY",
+        "EUR",
+        "USD",
+        "CHF"
+      ],
+      "effectiveRate": 0.006168,
+      "estimatedProfit": 0.000368
+    },
+    {
+      "from": "JPY",
+      "to": "INR",
+      "path": [
+        "JPY",
+        "EUR",
+        "USD",
+        "INR"
+      ],
+      "effectiveRate": 0.58212,
+      "estimatedProfit": 0.02212
+    },
+    {
+      "from": "CHF",
+      "to": "USD",
+      "path": [
+        "CHF",
+        "INR",
+        "EUR",
+        "USD"
+      ],
+      "effectiveRate": 1.20175,
+      "estimatedProfit": 0.05175
+    },
+    {
+      "from": "CHF",
+      "to": "EUR",
+      "path": [
+        "CHF",
+        "USD",
+        "INR",
+        "EUR"
+      ],
+      "effectiveRate": 1.1109,
+      "estimatedProfit": 0.0509
+    },
+    {
+      "from": "CHF",
+      "to": "GBP",
+      "path": [
+        "CHF",
+        "INR",
+        "EUR",
+        "GBP"
+      ],
+      "effectiveRate": 0.93955,
+      "estimatedProfit": 0.03955
+    },
+    {
+      "from": "CHF",
+      "to": "JPY",
+      "path": [
+        "CHF",
+        "USD",
+        "GBP",
+        "JPY"
+      ],
+      "effectiveRate": 177.56,
+      "estimatedProfit": 6.36
+    },
+    {
+      "from": "CHF",
+      "to": "INR",
+      "path": [
+        "CHF",
+        "USD",
+        "GBP",
+        "INR"
+      ],
+      "effectiveRate": 98.44,
+      "estimatedProfit": 3.44
+    },
+    {
+      "from": "INR",
+      "to": "USD",
+      "path": [
+        "INR",
+        "EUR",
+        "JPY",
+        "USD"
+      ],
+      "effectiveRate": 0.012707,
+      "estimatedProfit": 0.000607
+    },
+    {
+      "from": "INR",
+      "to": "EUR",
+      "path": [
+        "INR",
+        "JPY",
+        "USD",
+        "EUR"
+      ],
+      "effectiveRate": 0.011633,
+      "estimatedProfit": 0.000133
+    },
+    {
+      "from": "INR",
+      "to": "GBP",
+      "path": [
+        "INR",
+        "EUR",
+        "USD",
+        "GBP"
+      ],
+      "effectiveRate": 0.01012,
+      "estimatedProfit": 0.00062
+    },
+    {
+      "from": "INR",
+      "to": "JPY",
+      "path": [
+        "INR",
+        "EUR",
+        "USD",
+        "JPY"
+      ],
+      "effectiveRate": 1.91015,
+      "estimatedProfit": 0.09015
+    },
+    {
+      "from": "INR",
+      "to": "CHF",
+      "path": [
+        "INR",
+        "EUR",
+        "USD",
+        "CHF"
+      ],
+      "effectiveRate": 0.011259,
+      "estimatedProfit": 0.000559
+    },
+    {
+      "from": "USD",
+      "to": "USD",
+      "path": ["USD", "EUR", "JPY", "USD"],
+      "effectiveRate": 1.0456,
+      "estimatedProfit": 0.0456
+    },
+    {
+      "from": "EUR",
+      "to": "EUR",
+      "path": ["EUR", "USD", "INR", "EUR"],
+      "effectiveRate": 1.038,
+      "estimatedProfit": 0.038
+    },
+    {
+      "from": "JPY",
+      "to": "JPY",
+      "path": ["JPY", "GBP", "USD", "JPY"],
+      "effectiveRate": 1.051,
+      "estimatedProfit": 0.051
+    },
+    {
+      "from": "GBP",
+      "to": "GBP",
+      "path": ["GBP", "CHF", "USD", "GBP"],
+      "effectiveRate": 1.042,
+      "estimatedProfit": 0.042
+    },
+    {
+      "from": "CHF",
+      "to": "CHF",
+      "path": ["CHF", "EUR", "USD", "CHF"],
+      "effectiveRate": 1.049,
+      "estimatedProfit": 0.049
+    },
+    {
+      "from": "INR",
+      "to": "INR",
+      "path": ["INR", "EUR", "USD", "INR"],
+      "effectiveRate": 1.031,
+      "estimatedProfit": 0.031
+    }
+  ]
+}
